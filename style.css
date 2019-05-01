@@ -1,0 +1,568 @@
+
+p#companyname
+{
+    color: #FF1493;
+    font-size: 70px;
+    font-family: ArmWrestler;
+    top: 45%;
+    position: relative; 
+}
+
+p#companyslogan
+{
+    color: #FF1493;
+    font-size:40px;
+    font-family: Brush Script MT;
+    top: 45%;
+    position: relative;
+}
+
+
+#logo
+{
+    height: 18%;
+    width: 25%;
+    top: 40%;
+    position: relative;
+}
+.circle
+{
+    position: relative;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FF1493;
+    opacity: 0.5;
+    color: wheat;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    overflow: hidden;
+}
+.circle .fa{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate
+{
+    0%{
+        transform: translateY(-50px);
+        text-shadow: 0 50px 0 #fff;
+    }
+    20%{
+        transform: translateY(0px);
+        text-shadow: 0 10px 0 #fff;
+    }
+    40%{
+        transform: translateY(0px);
+        text-shadow: 0 -10px 0 #fff;
+    }
+    60%{
+        transform: translateY(0px);
+        text-shadow: 0 0px 0 #fff;
+    }
+    100%{
+        transform: translateY(100px);
+        text-shadow: 0 -50px 0 #fff;
+    }
+}
+
+
+#mark
+{
+    height: 7%;
+    width: 10%;
+    display: block;
+    line-height: normal;
+}
+
+#markname
+{
+    font-size: 25px;
+    color: #FF1493;
+    font-family: ArmWrestler;
+    display: block;
+    line-height: normal;
+}
+
+p#markslogan
+{
+    font-size:16px;
+    color: #FF1493;
+    font-family: Brush Script MT;
+    line-height: 0.5;
+}
+
+
+.fixme
+{
+    background: white; 
+    text-align: center;
+    width: 100%; 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #FF1493;
+  text-align: center;
+  padding: 11px 7%;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+	transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+}
+
+.active {
+background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#topics
+{
+    color: #FF1493;
+    font-family: Brush Script MT;
+}
+.page-header
+{
+    border-bottom-color: #ff1493;
+}
+
+
+
+.gridrow {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+
+/* Create two equal columns that sits next to each other */
+.gridcolumn {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.gridcolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#assure
+{
+    padding: 20px;
+    font-size: 18px;
+}
+
+#abc
+{
+    height: 40px;
+    width: 150px;
+    border-radius: 8%;
+    background-color: #FF1493;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.showcase
+{
+    font-size: 25px;
+    
+}
+a,a:hover{
+    color: #FF1493;
+    text-decoration: none;
+}
+
+#knowny
+{
+    font-family: Brush Script MT;
+    color: #FF1493;
+    font-size: 25px;
+    text-align: center;
+}
+#markdup
+{
+    height: 7%;
+    width: 10%;
+    display: block;
+    line-height: normal;
+}
+
+#marknamedup
+{
+    font-size: 25px;
+    color: #FF1493;
+    font-family: ArmWrestler;
+    display: block;
+    line-height: normal;
+}
+
+p#markslogandup
+{
+    font-size:16px;
+    color: #FF1493;
+    font-family: Brush Script MT;
+    line-height: 0.5;
+}
+
+
+#hash1
+{
+    border: 2px;
+    border-color: beige;
+    background-color: antiquewhite;
+    padding: 70px 50px;
+    font-family: monospace;
+    z-index: -1;
+}
+#hash1:hover{
+    background-color: white;
+}
+#hash2
+{
+    border: 2px;
+    border-color: beige;
+    background-color: #FFC0CB;
+    font-family: monospace;
+    padding: 70px 50px;
+    z-index: -1;
+}
+#hash3
+{
+    border: 2px;
+    border-color: beige;
+    background-color: #FFB6C1;
+    font-family: monospace;
+    padding: 70px 50px;
+    z-index: -1;
+}
+#hash4
+{
+    border: 2px;
+    border-color: beige;
+    background-color: #FF69B4;
+    font-family: monospace;
+    padding: 70px 50px;
+    z-index: -1;
+}
+
+
+
+#project{
+    width: 300px;
+    height: 450px;
+    background: white;
+    border-radius: 7px;
+    margin: 5px;
+    font-family: ArmWrestler;;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-style: oblique;
+    border-color: #ff1493;
+    border-width: thin;
+    border-style: solid;
+    
+
+    
+}
+#bor{
+    width:330px;
+    height:470px;
+    background: white;
+    border-radius: 8px;
+    border-color: #ff1493;
+    border-width: thick;
+    border-style: solid;
+    margin: :4px;
+    
+}
+
+.count
+{
+    line-height: 100px;
+    color: #ff1493;
+    margin-left: 25px;
+    font-size: 200px;                                                         
+    
+}
+
+
+#btn{
+    display: none;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    z-index: 99;
+    cursor: pointer;
+    width: 8%;
+    height: 15%;
+    
+    
+}
+#btn:hover{
+    background-color: white;
+    color: deeppink;
+}
+
+#container
+{
+    border: 5px;
+    border-color: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a{display: none;}
+  .topnav a.icon {
+    float: right;
+    text-align: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+input[type=text],[type=number] ,[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=checkbox]{
+    
+     border: solid;
+     resize:vertical;
+     border-radius:5px;
+     width:15%;
+     
+ }
+    
+  #chiro
+  {
+  display:inline-block;
+  }
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #FF1493;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #FF1493;
+}
+
+#contain {
+    border-radius: 5px;
+    background-color: pink;
+    padding: 20px;
+    
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    border-left: 15px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+@media (max-width:480px)
+{
+    p#companyname
+    {
+        font-size: 35px;
+    }
+    
+    p#companyslogan
+    {
+        font-size:25px;
+    }
+    #logo
+    {
+        height: 17%;
+        width: 30%;
+    }
+    
+    .circle
+    {
+        height: 50px;
+        width: 50px;
+        top: 150px;
+    }
+    
+    #markname
+    {
+        font-size: 21px;
+    }
+    #mark
+    {
+        height: 12%;
+        width: 25%;
+    }
+    p#markslogan
+    {
+        font-size: 18px;
+    }
+    
+    #show
+    {
+        font-size: 20px;
+    }   #markname
+    {
+        font-size: 20px;
+    }
+    #markdup
+    {
+        height: 12%;
+        width: 25%;
+    }
+    p#markslogandup
+    {
+        font-size: 15px;
+    }
+        #marknamedup
+    {
+        font-size: 20px;
+    }
+    
+    
+#btn{
+    right: 2%;
+    width: 10%;
+    height: 12%;
+}
+   
+}
+#enq
+{
+    font-size:20px;
+}
+
+@media (min-width:480px) and (max-width:700px)
+{
+    p#companyname
+    {
+        font-size: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

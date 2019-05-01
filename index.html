@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="test.js"></script>
+    <meta charset="utf-8">
+    <meta name="description" content="Interior designers">
+    <meta name="application-name" content="Konzepts Interiorz">
+    <meta name="author" content="Magesh B">
+    <meta name="keywords" content="Interior design,interior home, decorators, modern home, luxury interior, house inner design, home design">
+    
+<title>
+	Konzeptz Interiorz
+</title>
+<link rel="icon" href="img\favicon.png" type="img/icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    
+          <style>
+            html,body
+            {
+                width: 100%;
+                height: 100%;
+            }
+        #homepage
+            {
+                background: url(img/bgcover.png) no-repeat 50% 50%;
+                display: table;
+                height: 100%;
+                width: 100%;
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center;
+                overflow: hidden;
+                
+            }
+            .intro
+            {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                
+            }
+              .stick
+              {
+                  color: palevioletred;
+              }
+        
+        </style>
+    
+<div id="homepage">
+    <div class="intro">
+        <img src="img/favicon.png" id="logo">
+        <p id="companyname">Konzeptz Interiorz</p>
+        <p id="companyslogan">We deliver your dreams</p>
+        <div class="circle">
+        <a href="#page1">    
+        <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid" id="page1">
+    <div class="row">
+    <div class="fixme">
+    <center>
+    <img src="img/favicon.png" id="mark">    
+    <p id="markname" > Konzeptz Interiorz</p>
+    <p id="markslogan" >We deliver your dreams</p>
+    </center>
+    <div class="container">
+        <nav>
+    <div class="topnav" id="myTopnav">
+  <a href="#homepage" data-scroll="home">Home</a>
+  <a href="page2"  data-scroll="aboutus" target="_blank">About Us</a>
+  <a href="#page3"  data-scroll="showcase" class="active">Showcase</a>
+  <a href="#page4" data-scroll="services">Services</a>
+  <a href="#page5" data-scroll="enquiry">Enquiry</a>
+        
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">               
+    <i class="fa fa-bars"></i>
+  </a>
+        
+            </div></nav>
+    <br>
+</div>
+</div>
+</div>
+</div>
+    <div class="wrapper">
+         <section id="home" data-anchor="home">
+    <script>
+        
+       var fixmeTop = $('.fixme').offset().top;
+$(window).scroll(function() {
+    var currentScroll = $(window).scrollTop();
+    if (currentScroll >= fixmeTop) {
+        $('.fixme').css({
+            position: 'fixed',
+            top: '0',
+            left: '0',
+            right:'0'
+        });
+    } else {
+        $('.fixme').css({
+            position: 'static'
+        });
+    }
+});
+    </script>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+        </section>
+    
+    <div id="page2">
+        <section id="aboutus" data-anchor="aboutus">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+      
+        <div class="container">
+          <div class="page-header" id="topics">
+            <div class="showcase">
+              <h1>About Us</h1>
+              </div>
+            </div>
+          <p id="assure">
+            Our Team at Konzeptz Interiorz  believes in communication and care for our clients, be it small or big projects. We design to deliver the best for everyone. Believing in achieving the best quality, we utilise and work with a carefully selected pool of professional suppliers and manufacturers who deliver the finest materials from furniture to fabrics. With experience in both the commercial and residential projects
+            </p>
+          <div class="brochure">
+            <a href="aboutus.pdf" target="_blank"><p id="abc">Brochure</p></a>
+            </div>
+          
+          </div>
+        </section>  
+        
+     </div>   
+        
+    <div id="page3">
+        <section id="showcase" data-anchor="showcase">
+    <div class="container">
+    <div class="page-header" id="topics">
+        <div class="showcase">
+            <h1><a href="showcase.html">Showcase</a> </h1>
+        </div>
+        
+    </div>
+        <div class="row">
+        <div class="gridrow"> 
+  <div class="gridcolumn">
+      
+          <a href="showcase.html"> <img src="img/scratch/kitchen.jpg" style="width:100%"></a> 
+      <a href="showcase.html"><img src="img/scratch/glass%20works.jpg" style="width:100%"></a>
+      <a href="showcase.html"><img src="img/scratch/false%20ceiling.png" style="width:100%"></a>
+         <a href="showcase.html"><img src="img/scratch/poojacutlery.jpg" style="width:100%"></a>
+    
+  </div>
+  <div class="gridcolumn" >
+     
+      <a href="showcase.html"><img src="img/scratch/wooden%20flooring.jpg" style="width:100%"  ></a>
+      <a href="showcase.html"><img src="img/scratch/canopy.JPG" style="width:100%"> </a>
+       <a href="showcase.html"><img src="img/scratch/TV%20unit.jpg" style="width:100%"></a> 
+      <a href="showcase.html"><img src="img/scratch/wardrobe.jpg" style="width:100%"></a>
+  <a href="showcase.html">    <img src="img/scratch/SS%20rails.jpg" style="width:100%"></a>
+      <a href="showcase.html"><img src="img/scratch/curtains%20and%20Wallpaper.jpg" style="width:100%"></a>
+      </div>
+  </div>
+            </div></div>
+        </section>
+         
+        </div>
+                                                                       
+        <a href="#enquiry">  <img src="callback.png" id="btn"></a>
+  
+        
+    <div id="page4">
+    <br>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   <br><section id="services" data-anchor="services">
+    <div class="container">
+    <div class="page-header" id="topics">
+        <br><br><br><br><br>
+        <br>   
+        <h1  id="services">Services Offered</h1>
+    
+         </div>
+    <div class="row">
+    <div class="col-lg-3" id="hash1">
+        <h2 id="hashsen1">Space Planning</h2></div> 
+    <div class="col-lg-3" id="hash2">
+        <h2 id="hashsen1">Architectural Detailing</h2></div>
+    <div class="col-lg-3" id="hash3">
+        <h2 id="hashsen1">Project Management</h2></div>
+    <div class="col-lg-3" id="hash4">
+        <h2 id="hashsen1">Color Consulting</h2></div>   
+    
+        </div>
+        </div>
+        </section>
+    </div>
+    
+    <br>
+    <br><center><div id="bor">
+    <div id="project"><br>
+         <h3>Successfully Completed Projects<br><center><br><br><br>
+             <div id="counter">
+    <div class="count" data-count="35">0</div>
+    
+</div>
+</center><br><br><br>
+      And still counting...</h3>
+        </div></div>
+        </center>
+        <br>
+        <br>
+     
+
+    <script>
+       
+      /*SCRIPT FOR COUNTER RUNNER*/
+        
+        var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.count').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+        /* SCRIPT FOR SCROLLSPY*/
+                 
+    $('nav a').on('click', function() {
+
+    var scrollAnchor = $(this).attr('data-scroll'),
+        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
+
+    $('body,html').animate({
+        scrollTop: scrollPoint
+    }, 500);
+
+    return false;
+
+})
+
+
+$(window).scroll(function() {
+    var windscroll = $(window).scrollTop();
+    if (windscroll >= 100) {
+        $('nav').addClass('fixed');
+        $('.wrapper section').each(function(i) {
+            if ($(this).position().top <= windscroll - 20) {
+                $('nav a.active').removeClass('active');
+                $('nav a').eq(i).addClass('active');
+            }
+        });
+
+    } else {
+
+        $('nav').removeClass('fixed');
+        $('nav a.active').removeClass('active');
+        $('nav a:first').addClass('active');
+    }
+
+}).scroll();
+        
+        
+    </script> 
+    <section id="enquiry" data-anchor="enquiry"><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="page-header" id="topics"><h1>Enquiry</h1></div></div>
+     <div class="container" id="contain">
+         
+         <br>
+    <br>
+    <form method="post"  action="insert1.php" >
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">E-mail:</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="Your email ID..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="phone">Phone:</label>
+     </div>
+     <div class="col-75">
+      <input type="number" id="phone" name="phone" placeholder="Your contact number.." max-length="10">
+     </div>
+    </div>
+     <div class="row">
+      <div class="col-25">
+        <label for="site">Site Location:</label>
+     </div>
+     <div class="col-75">
+      <input type="text" id="site" name="site" placeholder="Your site location..">
+     </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+          <label >Required services:</label><br>
+       </div><br>
+       <div class="col-75">
+            <input type="checkbox"  id="chiro" name="check1" value="kitchen"/>Kitchen <br>
+            <input type="checkbox"  id="chiro" name="check2" value="canopy"/>Canopy<br>
+            <input type="checkbox"  id="chiro" name="check3" value="wooden"/>Wooden Flooring<br>
+            <input type="checkbox"  id="chiro" name="check4" value="Glass"/>Glass Working<br>
+            <input type="checkbox"  id="chiro" name="check5"  value="TV" />TV Cabinet<br>
+            <input type="checkbox"  id="chiro" name="check6" value="False"/>False Ceiling<br>
+            <input type="checkbox"  id="chiro" name="check7" value="wardrobe"/>Wardrobe<br>
+            <input type="checkbox"  id="chiro" name="check8" value="poojai" />Pooja & Cutlery<br>
+            <input type="checkbox"  id="chiro" name="check9" value="stainless"/>Stainless Steel Handrails<br>
+            <input type="checkbox"  id="chiro" name="check10" value="curtains"/>Curtains & Wallpaper<br>
+    </div>
+    </div><br>
+        <div class="row">
+      <input type="submit" name="submit" value="Submit">
+    </div>
+  </form>
+                  
+</div></section></div>
+    <br>
+    <!-- SCRIPT FOR CALLBACK-->
+<script>
+    window.onscroll = function()
+    {scrollFunction()
+    };
+    function scrollFunction(){
+        if(document.body.scrollTop>4200||
+            document.documentElement.scrollTop>4200){
+            document.getElementById("btn").style.display="none";
+        }
+        else{
+            document.getElementById("btn").style.display="block";
+        }
+    }
+    //function topFunction(){
+       // document.body.scrollTop=4200;
+       // document.documentElement.scrollTop=4200;
+   // }
+    
+    
+    </script>
+</body>
+</html>
