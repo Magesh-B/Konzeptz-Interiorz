@@ -15,6 +15,6 @@ window.addEventListener('load', function()
 })
 */
 
-$(window).load(function(){
+$(window).on('load',function(){
   $('.loader').fadeOut();
 });
