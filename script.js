@@ -7,3 +7,14 @@ function scrollFunction() {
     document.getElementById("page1").style.top = "-50px";
   }
 }
+/*
+var websiteLoaderVariable = document.getElementById("websiteLoader");
+window.addEventListener('load', function()
+{
+  websiteLoaderVariable.style.display = "none";
+})
+*/
+
+$(window).load(function(){
+  $('.loader').fadeOut();
+});
