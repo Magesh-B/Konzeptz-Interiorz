@@ -1,9 +1,8 @@
-
 p#companyname
 {
     color: #FF1493;
     font-size: 70px;
-    font-family: ArmWrestler;
+    font-family: 'Merriweather',serif;
     top: 45%;
     position: relative; 
 }
@@ -19,7 +18,7 @@ p#companyname
     z-index: 9999;
 }*/
 
-.loader {
+#loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -33,7 +32,7 @@ p#companyslogan
 {
     color: #FF1493;
     font-size:40px;
-    font-family: Brush Script MT;
+    font-family: 'Alex Brush', cursive;
     top: 45%;
     position: relative;
 }
@@ -108,7 +107,7 @@ p#companyslogan
 {
     font-size: 25px;
     color: #FF1493;
-    font-family: ArmWrestler;
+    font-family: 'Merriweather',serif;
     display: block;
     line-height: normal;
 }
@@ -117,7 +116,7 @@ p#markslogan
 {
     font-size:16px;
     color: #FF1493;
-    font-family: Brush Script MT;
+    font-family: 'Alex Brush', cursive;
     line-height: 0.5;
 }
 
@@ -163,7 +162,7 @@ background-color: #ddd;
 #topics
 {
     color: #FF1493;
-    font-family: Brush Script MT;
+    font-family: 'Alex Brush',cursive;
 }
 .page-header
 {
@@ -171,6 +170,40 @@ background-color: #ddd;
 }
 
 
+#getconnectedtext
+{
+    font-family: 'Alex Brush',cursive;
+    color: #FF1493;
+    text-align: center;
+}
+
+  
+#reachusicon:hover
+{
+    opacity: .5;
+    cursor: pointer;    
+}
+
+#myModal
+{
+   /* background-color: white;*/
+}
+
+.modal-title
+{
+    color: #FF1493;
+}
+
+#lastone
+{
+    color: #FF1493;
+}
+#brandposter
+{
+    height: 50%;
+    width: 50%;
+    align-content: center;
+}
 
 .gridrow {
     display: -ms-flexbox; /* IE 10 */
@@ -223,7 +256,7 @@ a,a:hover{
 
 #knowny
 {
-    font-family: Brush Script MT;
+    font-family: 'Alex Brush',cursive;
     color: #FF1493;
     font-size: 25px;
     text-align: center;
@@ -240,7 +273,7 @@ a,a:hover{
 {
     font-size: 25px;
     color: #FF1493;
-    font-family: ArmWrestler;
+    font-family: 'Merriweather',serif;
     display: block;
     line-height: normal;
 }
@@ -249,7 +282,7 @@ p#markslogandup
 {
     font-size:16px;
     color: #FF1493;
-    font-family: Brush Script MT;
+    font-family: 'Alex Script',cursive;
     line-height: 0.5;
 }
 
@@ -296,13 +329,14 @@ p#markslogandup
 
 
 
+
 #project{
     width: 300px;
     height: 450px;
     background: white;
     border-radius: 7px;
     margin: 5px;
-    font-family: ArmWrestler;;
+    font-family: 'Merriweather',serif;
     text-align: center;
     align-content: center;
     font-size: 25px;
@@ -486,6 +520,12 @@ input[type=submit]:hover {
         top: 150px;
     }
     
+    #brandposter
+    {
+        width: 100%;
+        height: 100%;
+    }
+
     #markname
     {
         font-size: 21px;
@@ -527,7 +567,8 @@ input[type=submit]:hover {
     width: 10%;
     height: 12%;
 }
-   
+
+
 }
 #enq
 {
@@ -539,6 +580,12 @@ input[type=submit]:hover {
     p#companyname
     {
         font-size: 45px;
+    }
+
+    #brandposter
+    {
+        width: 85%;
+        height: 85%;
     }
 }
 
@@ -618,19 +665,3 @@ input[type=submit]:hover {
 	border: 1px solid #000;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
