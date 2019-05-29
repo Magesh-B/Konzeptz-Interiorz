@@ -17,10 +17,16 @@
 <title>
 	Konzeptz Interiorz
 </title>
-<link rel="icon" href="img\favicon.png" type="img/icon">
+    <link rel="icon" href="img\favicon.png" type="img/icon">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="animate.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Merriweather&display=swap" rel="stylesheet">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </head>
 <body>
     
@@ -30,7 +36,7 @@
                 width: 100%;
                 height: 100%;
             }
-            img[alt="www.000webhostapp.com"]
+            img[alt="www.000webhost.com"]
             {
               display: none;
             }
@@ -208,12 +214,9 @@ function myFunction() {
     <br>
     <br>
     <br>
-    <br>
-    <br>
    <br><section id="services" data-anchor="services">
     <div class="container">
     <div class="page-header" id="topics">
-        <br><br><br><br><br>
         <br>   
         <h1  id="services">Services Offered</h1>
     
@@ -248,6 +251,12 @@ function myFunction() {
         <br>
         <br>
      
+
+        <div class="container">
+            <div class="wow rubberband">
+            <center><img id ="brandposter" src="img/BRAND.png"></center>
+            </div>    
+        </div>
 
     <script>
        
@@ -323,7 +332,8 @@ $(window).scroll(function() {
         
         
     </script> 
-    <section id="enquiry" data-anchor="enquiry"><br><br><br><br><br><br><br><br><br>
+
+    <section id="enquiry" data-anchor="enquiry"><br><br><br><br>
     <div class="container">
         <div class="page-header" id="topics"><h1>Enquiry</h1></div></div>
      <div class="container" id="contain">
@@ -431,29 +441,62 @@ $(window).scroll(function() {
 </div>
 -->
 
+
+<div class="container" id="getconnected">
+    <p style="font-size:5vw" id="getconnectedtext">Get Connected With Us</p>
+</div>   
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div id="some"></div>
-    </div>
-    <div class="col-sm-4">
-      <div id="some"></div>
-    </div>
-    <div class="col-sm-4">
-      <div id="some"></div>
-    </div>
-    <div class="col-sm-4">
-      <div id="some"></div>
-    </div>
-    <div class="col-sm-4">
-      <div id="some"></div>
-    </div>
+    
+  <table>
+      <tr>
+      <td>
+      <div class="wow shake">
+          <a href="https://www.facebook.com/Konzeptz-Interiors-and-Construction-624861301304016/?modal=admin_todo_tour"> 
+              <center><img  id="reachusicon" src="img/facebook.png" style="width: 30%; height: 30%;"></center>
+          </a> 
+      </div>
+      </td>
+      <td>
+      <div class="wow shake">
+          
+                   <a data-toggle="modal" data-target="#myModal"> 
+                       <center><img  id="reachusicon" onclick="style= opacity:0;" src="img/whatsapp.png" style="width: 30%; height: 30%;"></center>
+                        
+                   </a>
+          
+          <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
 
-  </div>
+<!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+  
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Reach us in WhatsApp</h4>
+                  </div>
+                  <div class="modal-body">
+                  <p id="lastone">+91- 988 425 8623</p>
+    
+                  <a href="intent://send/9884258623#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
+                  <button type="button" id="lastone" class="btn btn-default">Leave a WhatsApp message</button>
+                  </a>
+                  </div>
+              </div>
+
+              </div>
+            </div>      
+      </div>
+      </td>
+      <td>       
+      <div class="wow shake">
+          <a href="http://www.instagram.com/konzeptz_interiorz">
+      <center><img  id="reachusicon" src="img/instagram.png" style="width: 30%; height: 30%;"></center>
+          </a>
+      </div>
+      </td>
+      </tr>
+  </table>
 </div>
-
-
-  <br>
   <br>
   <br>
 </body>
