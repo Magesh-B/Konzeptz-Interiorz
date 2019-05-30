@@ -209,8 +209,6 @@ function myFunction() {
         
     <div id="page4">
     <br>
-        <br>
-    <br>
     <br>
     <br>
     <br>
@@ -340,13 +338,13 @@ $(window).scroll(function() {
          
          <br>
     <br>
-    <form method="post"  action="insert1.php" >
+    <form method="post"  action="insert.php" >
     <div class="row">
       <div class="col-25">
         <label for="name">Name:</label>
       </div>
       <div class="col-75">
-        <input type="text" id="name" name="name" placeholder="Your name..">
+        <input type="text" id="name" name="name" placeholder="Your name.." required>
       </div>
     </div>
     <div class="row">
@@ -354,7 +352,7 @@ $(window).scroll(function() {
         <label for="email">E-mail:</label>
       </div>
       <div class="col-75">
-        <input type="email" id="email" name="email" placeholder="Your email ID..">
+        <input type="email" id="email" name="email" placeholder="Your email ID.." required>
       </div>
     </div>
     <div class="row">
@@ -362,7 +360,7 @@ $(window).scroll(function() {
         <label for="phone">Phone:</label>
      </div>
      <div class="col-75">
-      <input type="number" id="phone" name="phone" placeholder="Your contact number.." max-length="10">
+      <input type="number" id="phone" name="phone" placeholder="Your contact number.."  min-length="10" max-length="15" required>
      </div>
     </div>
      <div class="row">
@@ -370,7 +368,7 @@ $(window).scroll(function() {
         <label for="site">Site Location:</label>
      </div>
      <div class="col-75">
-      <input type="text" id="site" name="site" placeholder="Your site location..">
+      <input type="text" id="site" name="site" placeholder="Your site location.." required>
      </div>
     </div>
     <div class="row">
@@ -460,7 +458,7 @@ $(window).scroll(function() {
       <div class="wow shake">
           
                    <a data-toggle="modal" data-target="#myModal"> 
-                       <center><img  id="reachusicon" onclick="style= opacity:0;" src="img/whatsapp.png" style="width: 30%; height: 30%;"></center>
+                       <center><img  id="reachusicon" onclick="opacity=0;" src="img/whatsapp.png" style="width: 30%; height: 30%;"></center>
                         
                    </a>
           
@@ -477,9 +475,8 @@ $(window).scroll(function() {
                   <div class="modal-body">
                   <p id="lastone">+91- 988 425 8623</p>
     
-                  <a href="intent://send/9884258623#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
-                  <button type="button" id="lastone" class="btn btn-default">Leave a WhatsApp message</button>
-                  </a>
+                     <button type="button" id="lastone" class="btn btn-default" onclick="myFunctionCopy()">Copy to clipboard</button>
+                  
                   </div>
               </div>
 
@@ -499,5 +496,17 @@ $(window).scroll(function() {
 </div>
   <br>
   <br>
+  <script>
+function myFunctionCopy() {
+  /*var copyText = document.getElementById("myInputNumber");
+  copyText.select();
+  document.execCommand("copy");
+  alert("Number copied to your clipboard: " + copyText.value);*/
+  var dummyContent = "9884258623";
+ var dummy = $('<input>').val(dummyContent).appendTo('body').select();
+ document.execCommand('copy');
+ alert('Number copied to clipboard!');
+}
+</script>
 </body>
 </html>
